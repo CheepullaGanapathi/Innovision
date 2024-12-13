@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="collaboration.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="logo.jpg" alt="Company Logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="collaboration.html">COLLABORATION</a></li>
+            <li><a href="#">INNOVATIONHUB</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">LOGIN</a></li>
+        </ul>
+    </nav>
+    <div class="form-container">
+        <h2>Submit Your Project</h2>
+        <form action="/projects/submit" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="project-title">Project Title:</label>
+                <input type="text" id="project-title" name="projectTitle" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="project-description">Project Description:</label>
+                <textarea id="project-description" name="projectDescription" rows="4" required></textarea>
+            </div>
+    
+            <div class="form-group">
+                <label for="project-goals">Project Goals:</label>
+                <textarea id="project-goals" name="projectGoals" rows="4" required></textarea>
+            </div>
+    
+            <div class="form-group">
+                <label for="team-members">Team Members (optional):</label>
+                <input type="text" id="team-members" name="teamMembers" placeholder="List team members (comma-separated)">
+            </div>
+    
+            <div class="form-group">
+                <label for="project-file">Upload Project Files (optional):</label>
+                <input type="file" id="project-file" name="projectFile" class="file-upload">
+            </div>
+    
+            <div class="form-group">
+                <label for="project-category">Project Category:</label>
+                <select id="project-category" name="projectCategory" required>
+                    <option value="research">Research</option>
+                    <option value="development">Development</option>
+                    <option value="design">Design</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+    
+            <button type="submit">Submit Project</button>
+        </form>
+    </div>
+    
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="logo.jpg" alt="Company Logo">
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="conatct.html">Contact</a></li>
+          <li><a href="#">innovationhub</a></li>
+          <li><a href="#">Collaboration</a></li>
+          <li><a href="#">login</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <ul>
+          <li><a href="#" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a></li>
+          <li><a href="#" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a></li>
+          <li><a href="#" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Innovation Hub. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+    
+</body>
+</html>

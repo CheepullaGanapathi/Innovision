@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body >
+     <!-- Navbar -->
+     <nav class="navbar">
+        <img src="logo.jpg" alt="Company Logo">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="dashboard.html">DASHBOARD</a></li>
+            <li><a href="collaboration.html">COLLABORATION</a></li>
+            <li><a href="#">INNOVATIONHUB</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">LOGIN</a></li>
+        </ul>
+    </nav>
+   
+    <div class="contact-section">
+        <!-- <h2>Contact Us</h2> -->
+        <form action="https://api.web3forms.com/submit" method="POST"  method="post" class="contact-form">
+            <input type="hidden" name="access_key" value="a9b0511b-9a75-47c6-8e0f-546dcf76a9e2">
+    
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="Address">Address:</label>
+                <textarea id="Address" name="Address" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Submit</button>
+            </form>
+</body>
+</html>
