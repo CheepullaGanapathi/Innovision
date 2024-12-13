@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Circle Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+   <link rel="stylesheet" href="dash.css">
+
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <img src="logo.jpg" alt="Company Logo">
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="#">Collaboration</a></li>
+            <li><a href="#">InnovationHub</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+   
+
+      <section class="overview">
+        <div class="card">
+          <h3>Total Projects</h3>
+          <p>120</p>
+          <canvas id="projectsChart"></canvas>
+        </div>
+        <div class="card">
+          <h3>Total Patents</h3>
+          <p>30</p>
+          <canvas id="patentsChart"></canvas>
+        </div>
+        <div class="card">
+          <h3>Total Publications</h3>
+          <p>75</p>
+          <canvas id="publicationsChart"></canvas>
+        </div>
+        <div class="card">
+          <h3>Total Grants</h3>
+          
+          <canvas id="grantsChart"></canvas>
+        </div>
+      </section>
+
+      <section class="charts">
+        <div class="chart-container">
+          <h3>Patents Per Year</h3>
+          <canvas id="patentsPerYearChart"></canvas>
+        </div>
+        <div class="chart-container">
+          <h3>Projects per Year</h3>
+          <canvas id="projectsGrantsPerYearChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <h3>  Grants per Year</h3>
+            <canvas id="GrantsPerYearChart"></canvas>
+          </div>
+      </section>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="logo.jpg" alt="Company Logo">
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">innovationhub</a></li>
+          <li><a href="#">Collaboration</a></li>
+          <li><a href="">login</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <ul>
+          <li><a href="#" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a></li>
+          <li><a href="#" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a></li>
+          <li><a href="#" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Innovation Hub. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body> 
+<script src="dash.js"></script>
+</html>

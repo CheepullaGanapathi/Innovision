@@ -3,151 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InnoVista - Innovation Excellence Indicators Portal</title>
-    <style>
-        /* General Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-        }
-
-        /* Navbar */
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 2rem;
-            background-color: #007bff;
-            color: white;
-        }
-
-        .navbar img {
-            height: 50px;
-        }
-
-        .navbar ul {
-            list-style: none;
-            display: flex;
-        }
-
-        .navbar ul li {
-            margin: 0 1rem;
-        }
-
-        .navbar ul li a {
-            color: white;
-            text-decoration: none;
-            font-size: 1rem;
-        }
-
-        .navbar ul li a:hover {
-            text-decoration: underline;
-        }
-
-        /* Section Styling */
-        .section {
-            display: flex;
-            align-items: center;
-            padding: 2rem;
-        }
-
-        .section img {
-            width: 45%;
-            height:20%;
-            border-radius: 20%;
-            border: 5px solid #007bff; 
-            padding: 5px; 
-         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
-        }
-        #sec_innovation{
-            height: 425px;
-            width: 500px;
-
-        }
-
-        .section .content {
-            width: 50%;
-            padding: 4rem;
-            letter-spacing: normal;
-            font-size: 20px;
-            font-family:sans-serif;
-        }
-
-        .section:nth-child(even) {
-            flex-direction: row-reverse;
-        }
-
-        .section h2 {
-            color: #007bff;
-            margin-bottom: 1rem;
-        }
-
-        /* Footer Styling */
-        .footer {
-            background-color: #f8f9fa;
-            padding: 2rem;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .footer img {
-            height: 60px;
-        }
-
-        .footer .address {
-            width: 70%;
-        }
-
-        .footer .address h3 {
-            margin-bottom: 0.5rem;
-        }
-
-        .footer .social {
-            display: flex;
-            gap: 1rem;
-        }
-
-        .footer .social a {
-            text-decoration: none;
-            color: #007bff;
-            font-size: 1.2rem;
-        }
-
-        @media (max-width: 768px) {
-            .section {
-                flex-direction: column;
-            }
-
-            .section img, .section .content {
-                width: 100%;
-            }
-
-            .footer {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .footer .address {
-                width: 100%;
-                margin-bottom: 1rem;
-            }
-        }
-    </style>
+    <title>Innovation Excellence Indicators Portal</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar">
         <img src="logo.jpg" alt="Company Logo">
+        <h1>INNOVISION</h1><br>
         <ul>
-            <li><a href="#">Dashboard</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
             <li><a href="#">Collaboration</a></li>
             <li><a href="#">Innovation</a></li>
             <li><a href="#">Contact</a></li>
@@ -196,11 +61,11 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <img src="logo.jpg" alt="Company Logo">
+        <img src="logo.jpg" id="logo" >
         <div class="address">
-            <h3>Contact Us</h3>
+            <h3><b>Contact Us</b></h3>
             <p>1234 Innovation Street, Suite 567<br>City, State, ZIP</p>
-            <p>Email: contact@innovista.com | Phone: +1 (234) 567-890</p>
+            <p>Email: Innovision@gmail.com | Phone: +1 (234) 567-890</p>
         </div>
         <div class="social">
             <a href="#">Facebook</a>
