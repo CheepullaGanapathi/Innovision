@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnoVista - Innovation Excellence Indicators Portal</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: #007bff;
+            color: white;
+        }
+
+        .navbar img {
+            height: 50px;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin: 0 1rem;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .navbar ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Styling */
+        .section {
+            display: flex;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .section img {
+            width: 45%;
+            height:20%;
+            border-radius: 20%;
+            border: 5px solid #007bff; 
+            padding: 5px; 
+         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+        }
+        #sec_innovation{
+            height: 425px;
+            width: 450px;
+
+        }
+
+        .section .content {
+            width: 50%;
+            padding: 4rem;
+            letter-spacing: normal;
+            font-size: 20px;
+            font-family:sans-serif;
+        }
+
+        .section:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .section h2 {
+            color: #007bff;
+            margin-bottom: 1rem;
+        }
+
+        /* Footer Styling */
+        .footer {
+            background-color: #f8f9fa;
+            padding: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .footer img {
+            height: 60px;
+        }
+
+        .footer .address {
+            width: 70%;
+        }
+
+        .footer .address h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer .social {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .footer .social a {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            .section {
+                flex-direction: column;
+            }
+
+            .section img, .section .content {
+                width: 100%;
+            }
+
+            .footer {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .footer .address {
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <img src="your-logo-link" alt="Company Logo">
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Collaboration</a></li>
+            <li><a href="#">Innovation</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sections -->
+    <section class="section">
+        <img src="excellence and innovation.jpg" alt="Section Image">
+        <div class="content">
+            <h2></h2>
+            <p><b>Our Mission:</b>
+                At InnoVista, our mission is to drive innovation and deliver excellence by providing cutting-edge solutions that empower businesses to thrive in a rapidly changing world.
+                <br>
+                <br>
+
+                <b>Our Vision:</b>
+                We aspire to be a global leader in innovation, inspiring transformation and creating value through forward-thinking approaches, exceptional service, and an unwavering commitment to quality.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <img src="dashboard.jpg" alt="Section Image">
+        <div class="content">
+            <h2>DASHBOARD </h2>
+            <p>"Welcome to the InnoVista Dashboard  where innovation meets excellence. Access real-time insights and tools to enhance performance. Empower smarter decisions with a seamless, intuitive interface."</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <img src="collaboration.jpeg" alt="Section Image">
+        <div class="content">
+            <h2>COLLABORATION</h2>
+            <p>"Collaboration drives innovation and success. Our platform brings people, ideas, and tools together, enabling seamless teamwork to achieve shared goals. Experience a space where connectivity and creativity thrive, empowering collective excellence."</p>
+        </div>
+    </section>
+    <section class="section">
+        <img src="innovation.jpg" alt="Section Image" id="sec_innovation">
+        <div class="content">
+            <h2>INNOVATION</h2>
+            <p>The Innovation Excellence Indicators Portal for Research and Development tracks key metrics to measure the success of R&D initiatives. It provides insights into project performance, patents, publications, and funding, fostering a culture of innovation. The portal empowers institutions to make data-driven decisions and drive impactful, sustainable innovation.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <img src="company-logo-link" alt="Company Logo">
+        <div class="address">
+            <h3>Contact Us</h3>
+            <p>1234 Innovation Street, Suite 567<br>City, State, ZIP</p>
+            <p>Email: contact@innovista.com | Phone: +1 (234) 567-890</p>
+        </div>
+        <div class="social">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
