@@ -2,6 +2,130 @@
 body {
     font-family: Arial, sans-serif;
 }
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #007bff;
+    color: white;
+    width: 100%;
+}
+
+.navbar img {
+    height: 70px;
+    border-radius: 50px;
+
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    
+}
+/* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #007bff;
+    color: white;
+    width: 100%;
+    /* min-height:100%; */
+}
+
+.navbar img {
+    height: 70px;
+    border-radius:50px ;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Style the dropdown container */
+.navbar .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the dropdown button */
+.navbar .dropbtn {
+    background-color: transparent;
+    color: #fff;
+    padding: 14px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown content (hidden by default) */
+.navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.navbar .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.navbar .dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Show the dropdown menu when the user hovers over the dropdown button */
+.navbar .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+}
+.navbar ul li {
+    margin: 0 1rem;
+    
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    text-decoration:none;
+    color: #ffb600;
+    
+}
 
 .section-heading {
     text-align: center;
@@ -60,3 +184,75 @@ body {
     background-color: #e55a00;
     color: white;
 }
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    }
+    
+    .footer-content {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    flex-wrap: wrap;
+    }
+    
+    .footer-logo img {
+    width: 100px;
+    height: auto;
+    }
+    
+    .footer-links ul, .footer-social ul {
+    list-style: none;
+    display: flex;
+    
+    }
+    
+    .footer-links ul li, .footer-social ul li {
+    margin:0 15px;
+    }
+    
+    .footer-links a, .footer-social a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+    margin-left: 10px;
+    flex-direction: column;
+    }
+    
+    .footer-links a:hover, .footer-social a:hover {
+    color: #4c6ef5;
+    }
+    
+    .footer-social ul li {
+    margin: 0 10px;
+    }
+    
+    .footer-social img {
+    width: 25px;
+    height: auto;
+    }
+    
+    .footer-bottom {
+    margin-top: 20px;
+    font-size: 1rem;
+    }
+    
+    @media only screen and (max-width: 768px) {
+    .footer-content {
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .footer-links ul, .footer-social ul {
+    margin-top: 20px;
+    }
+    }
