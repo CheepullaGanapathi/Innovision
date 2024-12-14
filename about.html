@@ -3,14 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Circle Dashboard</title>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
-   <link rel="stylesheet" href="dash.css">
-
-
+  <title>Document</title>
+  <link rel="stylesheet" href="about.css">
 </head>
 <body>
-    <!-- Navbar -->
     <nav class="navbar">
         <img src="logo.jpg" alt="Company Logo">
         <ul>
@@ -20,10 +16,10 @@
             <li class="dropdown">
                 <a href="innovationhub.html" class="dropbtn">INNOVATIONHUB</a>
                 <div class="dropdown-content">
-                    <a href="#">Projects</a>
-                    <a href="#">Patents</a>
-                    <a href="#">Publications</a>
-                    <a href="#">Grants</a>
+                    <a href="innovationhub.html">Projects</a>
+                    <a href="innovationhub.html">Patents</a>
+                    <a href="innovationhub.html">Publications</a>
+                    <a href="innovationhub.html">Grants</a>
                     
                 </div>
             <li><a href="contact.html">CONTACT</a></li>
@@ -31,49 +27,52 @@
             <li><a href="login.html">LOGIN</a></li>
         </ul>
     </nav>
-   
+  
 
-      <section class="overview">
-        <div class="card">
-          <h3>Total Projects</h3>
-          <p>120</p>
-          <canvas id="projectsChart"></canvas>
-        </div>
-        <div class="card">
-          <h3>Total Patents</h3>
-          <p>30</p>
-          <canvas id="patentsChart"></canvas>
-        </div>
-        <div class="card">
-          <h3>Total Publications</h3>
-          <p>75</p>
-          <canvas id="publicationsChart"></canvas>
-        </div>
-        <div class="card">
-          <h3>Total Grants</h3>
-          
-          <canvas id="grantsChart"></canvas>
-        </div>
-      </section>
 
-      <section class="charts">
-        <div class="chart-container">
-          <h3>Patents Per Year</h3>
-          <canvas id="patentsPerYearChart"></canvas>
-        </div>
-        <div class="chart-container">
-          <h3>Projects per Year</h3>
-          <canvas id="projectsGrantsPerYearChart"></canvas>
-        </div>
+<section id="about-us" class="about-us">
+  <div class="container">
+    <!-- About Us Header -->
+    <div class="about-us-header">
+      <h2>Innovation Excellence in Research & Development</h2>
+      <p>Welcome to the Innovation Excellence Indicators Portal, where data-driven insights meet cutting-edge research. This platform is designed to help organizations assess and enhance their innovation capabilities through key performance indicators (KPIs) and research insights.</p>
+    </div>
 
-        <div class="chart-container">
-            <h3>  Grants per Year</h3>
-            <canvas id="GrantsPerYearChart"></canvas>
-          </div>
-      </section>
+    <!-- Innovation Excellence Details Section -->
+    <div class="about-us-details">
+      <div class="innovation-section">
+        <h3>Our Mission: Advancing R&D with Precision</h3>
+        <p>At the heart of our portal is the mission to provide research-driven indicators that help organizations enhance their innovation capabilities. Our data-rich platform empowers R&D teams to track progress, measure outcomes, and identify growth opportunities in real-time.</p>
+      </div>
+
+      <div class="innovation-section">
+        <h3>Data-Driven Insights for Excellence</h3>
+        <p>We use sophisticated algorithms to analyze R&D data and provide actionable insights. These insights help organizations measure their innovation performance against global benchmarks, enabling them to make informed decisions and improve their strategic approach to R&D.</p>
+      </div>
+
+      <div class="innovation-section">
+        <h3>Performance Indicators for Success</h3>
+        <p>Our portal offers a range of key performance indicators (KPIs) that track various aspects of innovation—from idea generation to commercialization. These indicators provide a comprehensive view of your organization's R&D performance and identify areas for improvement.</p>
+      </div>
+
+      <div class="innovation-section">
+        <h3>Collaboration & Networking Opportunities</h3>
+        <p>Innovation thrives through collaboration. Our platform fosters a community of researchers, innovators, and industry leaders, offering networking opportunities to share knowledge, collaborate on projects, and drive excellence in R&D.</p>
+      </div>
+
+      <div class="innovation-section">
+        <h3>Real-Time Analytics & Reporting</h3>
+        <p>With real-time analytics, our portal offers dynamic dashboards and reports that help R&D teams track their progress. These insights are presented in a user-friendly format, allowing for quick decision-making and efficient management of innovation projects.</p>
+      </div>
+    </div>
+
+    <!-- Image or Illustration to Support Innovation Theme -->
+    <div class="about-us-image">
+      <p>"Innovation Excellence in R&D"</p>
+    </div>
   </div>
-
-  <footer>
+</section>
+<footer>
     <div class="footer-content">
       <div class="footer-logo">
         <img src="logo.jpg" alt="Company Logo">
@@ -101,6 +100,5 @@
       <p>&copy; 2024 Innovation Hub. All Rights Reserved.</p>
     </div>
   </footer>
-</body> 
-<script src="dash.js"></script>
+</body>
 </html>

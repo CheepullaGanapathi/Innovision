@@ -12,8 +12,10 @@
       background-size: cover;
       justify-content: center;
       align-items: center;
-      height: 10vh;
+      /* height:10vh; */
       margin: 0;
+
+    
  }
     
   /* Navbar */
@@ -147,6 +149,7 @@
       max-width:600px;
       margin-top: 15px;
       margin-left:10px ;
+      max-height: 50%;
     }
 
     h2 {
@@ -194,3 +197,7 @@
     .file-upload {
       margin-top: 10px;
     }
+    p{
+        margin-left: 10px;
+    };
+    
