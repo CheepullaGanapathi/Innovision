@@ -154,7 +154,11 @@ body {
     border: 5px solid #007bff; 
     padding: 5px; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease;
 
+}
+.section:hover img{
+    transform: scale(0.9);
 }
 #sec_innovation{
     height: 425px;
